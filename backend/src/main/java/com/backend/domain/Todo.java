@@ -1,11 +1,9 @@
 package com.backend.domain;
 
-
 import jakarta.persistence.*;
 import lombok.*;
 
 import java.time.LocalDate;
-
 
 /**
  * Builder
