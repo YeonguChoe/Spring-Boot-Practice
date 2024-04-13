@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.448s</div>
+<div class="counter">0.542s</div>
 <p>duration</p>
 </div>
 </td>
@@ -66,9 +66,6 @@
 <li>
 <a href="#tab1">Standard output</a>
 </li>
-<li>
-<a href="#tab2">Standard error</a>
-</li>
 </ul>
 <div id="tab0" class="tab">
 <h2>Tests</h2>
@@ -82,7 +79,7 @@
 </thead>
 <tr>
 <td class="success">testInsert()</td>
-<td class="success">0.448s</td>
+<td class="success">0.542s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -90,8 +87,8 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>16:35:03.050 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.backend.repository.TodoRepositoryTests_Log4J]: TodoRepositoryTests_Log4J does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-16:35:03.086 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.backend.BackendApplication for test class com.backend.repository.TodoRepositoryTests_Log4J
+<pre>16:17:06.353 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.backend.repository.TodoRepositoryTests_Log4J]: TodoRepositoryTests_Log4J does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:17:06.447 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.backend.BackendApplication for test class com.backend.repository.TodoRepositoryTests_Log4J
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -101,21 +98,25 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.4)
 
-2024-04-03T16:35:03.233+09:00  INFO 12524 --- [    Test worker] c.b.r.TodoRepositoryTests_Log4J          : Starting TodoRepositoryTests_Log4J using Java 21.0.1 with PID 12524 (started by yeonguchoe in /Users/yeonguchoe/Desktop/SaleCar24/backend)
-2024-04-03T16:35:03.233+09:00  INFO 12524 --- [    Test worker] c.b.r.TodoRepositoryTests_Log4J          : No active profile set, falling back to 1 default profile: &quot;default&quot;
-2024-04-03T16:35:03.469+09:00  INFO 12524 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-04-03T16:35:03.494+09:00  INFO 12524 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interface.
-2024-04-03T16:35:03.659+09:00  INFO 12524 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-04-03T16:35:03.678+09:00  INFO 12524 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-04-03T16:35:03.690+09:00  INFO 12524 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-04-03T16:35:03.778+09:00  INFO 12524 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-04-03T16:35:03.788+09:00  INFO 12524 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-04-03T16:35:03.849+09:00  INFO 12524 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@65e4cb84
-2024-04-03T16:35:03.850+09:00  INFO 12524 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-04-03T16:35:04.156+09:00  INFO 12524 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-04-03T16:35:04.172+09:00  INFO 12524 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-04-03T16:35:04.366+09:00  WARN 12524 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-04-03T16:35:04.535+09:00  INFO 12524 --- [    Test worker] c.b.r.TodoRepositoryTests_Log4J          : Started TodoRepositoryTests_Log4J in 1.381 seconds (process running for 1.823)
+2024-04-13T16:17:06.759+09:00  INFO 11776 --- [    Test worker] c.b.r.TodoRepositoryTests_Log4J          : Starting TodoRepositoryTests_Log4J using Java 17.0.2 with PID 11776 (started by yeong in C:\Users\yeong\OneDrive\Desktop\Spring-Boot-Practice\backend)
+2024-04-13T16:17:06.759+09:00  INFO 11776 --- [    Test worker] c.b.r.TodoRepositoryTests_Log4J          : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2024-04-13T16:17:07.391+09:00  INFO 11776 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-13T16:17:07.440+09:00  INFO 11776 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 2 JPA repository interfaces.
+2024-04-13T16:17:07.914+09:00  INFO 11776 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-13T16:17:07.962+09:00  INFO 11776 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-13T16:17:08.009+09:00  INFO 11776 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-13T16:17:08.249+09:00  INFO 11776 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-13T16:17:08.287+09:00  INFO 11776 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-13T16:17:08.469+09:00  INFO 11776 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3c6bd624
+2024-04-13T16:17:08.469+09:00  INFO 11776 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-13T16:17:09.328+09:00  INFO 11776 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-13T16:17:09.391+09:00  INFO 11776 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-13T16:17:09.945+09:00  INFO 11776 --- [    Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-13T16:17:10.559+09:00  WARN 11776 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-13T16:17:10.673+09:00  INFO 11776 --- [    Test worker] com.backend.config.CustomServletConfig   : add formatter? ????
+2024-04-13T16:17:10.989+09:00  INFO 11776 --- [    Test worker] c.backend.config.CustomSecurityConfig    : ------------------------------security config------------------------------
+2024-04-13T16:17:11.028+09:00  INFO 11776 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3bf31f3e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6f8b1902, org.springframework.security.web.context.SecurityContextHolderFilter@cede70a, org.springframework.security.web.header.HeaderWriterFilter@48a2fb11, org.springframework.web.filter.CorsFilter@2c914aa3, org.springframework.security.web.authentication.logout.LogoutFilter@5f9cb96f, com.backend.security.filter.JWTCheckFilter@1b61a646, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@786d8b3b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2a45c6f0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@550ce3a9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@38c840fb, org.springframework.security.web.session.SessionManagementFilter@65208c91, org.springframework.security.web.access.ExceptionTranslationFilter@1b7c1c6f]
+2024-04-13T16:17:11.423+09:00  INFO 11776 --- [    Test worker] c.b.r.TodoRepositoryTests_Log4J          : Started TodoRepositoryTests_Log4J in 4.829 seconds (process running for 5.716)
 Hibernate: 
     select
         t1_0.tno,
@@ -128,13 +129,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -146,13 +140,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -163,13 +150,6 @@ Hibernate:
         tbl_todo t1_0 
     where
         t1_0.tno=?
-Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
 Hibernate: 
     select
         t1_0.tno,
@@ -182,13 +162,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -200,13 +173,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -217,13 +183,6 @@ Hibernate:
         tbl_todo t1_0 
     where
         t1_0.tno=?
-Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
 Hibernate: 
     select
         t1_0.tno,
@@ -236,13 +195,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -254,13 +206,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -271,13 +216,6 @@ Hibernate:
         tbl_todo t1_0 
     where
         t1_0.tno=?
-Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
 Hibernate: 
     select
         t1_0.tno,
@@ -290,13 +228,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -308,13 +239,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -325,13 +249,6 @@ Hibernate:
         tbl_todo t1_0 
     where
         t1_0.tno=?
-Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
 Hibernate: 
     select
         t1_0.tno,
@@ -344,13 +261,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -362,13 +272,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -379,13 +282,6 @@ Hibernate:
         tbl_todo t1_0 
     where
         t1_0.tno=?
-Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
 Hibernate: 
     select
         t1_0.tno,
@@ -398,13 +294,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -416,13 +305,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -433,13 +315,6 @@ Hibernate:
         tbl_todo t1_0 
     where
         t1_0.tno=?
-Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
 Hibernate: 
     select
         t1_0.tno,
@@ -452,13 +327,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -470,13 +338,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -487,13 +348,6 @@ Hibernate:
         tbl_todo t1_0 
     where
         t1_0.tno=?
-Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
 Hibernate: 
     select
         t1_0.tno,
@@ -506,13 +360,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -524,13 +371,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -541,13 +381,6 @@ Hibernate:
         tbl_todo t1_0 
     where
         t1_0.tno=?
-Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
 Hibernate: 
     select
         t1_0.tno,
@@ -560,13 +393,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -578,13 +404,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -595,13 +414,6 @@ Hibernate:
         tbl_todo t1_0 
     where
         t1_0.tno=?
-Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
 Hibernate: 
     select
         t1_0.tno,
@@ -614,13 +426,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -632,13 +437,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -649,13 +447,6 @@ Hibernate:
         tbl_todo t1_0 
     where
         t1_0.tno=?
-Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
 Hibernate: 
     select
         t1_0.tno,
@@ -668,13 +459,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -686,13 +470,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -703,13 +480,6 @@ Hibernate:
         tbl_todo t1_0 
     where
         t1_0.tno=?
-Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
 Hibernate: 
     select
         t1_0.tno,
@@ -722,13 +492,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -740,13 +503,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -757,13 +513,6 @@ Hibernate:
         tbl_todo t1_0 
     where
         t1_0.tno=?
-Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
 Hibernate: 
     select
         t1_0.tno,
@@ -776,13 +525,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -794,13 +536,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -811,13 +546,6 @@ Hibernate:
         tbl_todo t1_0 
     where
         t1_0.tno=?
-Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
 Hibernate: 
     select
         t1_0.tno,
@@ -830,13 +558,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -848,13 +569,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -865,13 +579,6 @@ Hibernate:
         tbl_todo t1_0 
     where
         t1_0.tno=?
-Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
 Hibernate: 
     select
         t1_0.tno,
@@ -884,13 +591,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -902,13 +602,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -919,13 +612,6 @@ Hibernate:
         tbl_todo t1_0 
     where
         t1_0.tno=?
-Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
 Hibernate: 
     select
         t1_0.tno,
@@ -938,13 +624,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -955,13 +634,6 @@ Hibernate:
         tbl_todo t1_0 
     where
         t1_0.tno=?
-Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
 Hibernate: 
     select
         t1_0.tno,
@@ -974,13 +646,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -991,13 +656,6 @@ Hibernate:
         tbl_todo t1_0 
     where
         t1_0.tno=?
-Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
 Hibernate: 
     select
         t1_0.tno,
@@ -1010,13 +668,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -1028,13 +679,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -1045,13 +689,6 @@ Hibernate:
         tbl_todo t1_0 
     where
         t1_0.tno=?
-Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
 Hibernate: 
     select
         t1_0.tno,
@@ -1064,13 +701,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -1082,13 +712,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -1099,13 +722,6 @@ Hibernate:
         tbl_todo t1_0 
     where
         t1_0.tno=?
-Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
 Hibernate: 
     select
         t1_0.tno,
@@ -1118,13 +734,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -1136,13 +745,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -1153,13 +755,6 @@ Hibernate:
         tbl_todo t1_0 
     where
         t1_0.tno=?
-Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
 Hibernate: 
     select
         t1_0.tno,
@@ -1172,13 +767,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -1190,13 +778,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -1207,13 +788,6 @@ Hibernate:
         tbl_todo t1_0 
     where
         t1_0.tno=?
-Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
 Hibernate: 
     select
         t1_0.tno,
@@ -1226,13 +800,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -1244,13 +811,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -1261,13 +821,6 @@ Hibernate:
         tbl_todo t1_0 
     where
         t1_0.tno=?
-Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
 Hibernate: 
     select
         t1_0.tno,
@@ -1280,13 +833,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -1298,13 +844,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -1315,13 +854,6 @@ Hibernate:
         tbl_todo t1_0 
     where
         t1_0.tno=?
-Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
 Hibernate: 
     select
         t1_0.tno,
@@ -1334,13 +866,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -1352,13 +877,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -1369,13 +887,6 @@ Hibernate:
         tbl_todo t1_0 
     where
         t1_0.tno=?
-Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
 Hibernate: 
     select
         t1_0.tno,
@@ -1388,13 +899,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -1405,13 +909,6 @@ Hibernate:
         tbl_todo t1_0 
     where
         t1_0.tno=?
-Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
 Hibernate: 
     select
         t1_0.tno,
@@ -1424,13 +921,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -1441,13 +931,6 @@ Hibernate:
         tbl_todo t1_0 
     where
         t1_0.tno=?
-Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
 Hibernate: 
     select
         t1_0.tno,
@@ -1460,13 +943,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -1478,13 +954,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -1495,13 +964,6 @@ Hibernate:
         tbl_todo t1_0 
     where
         t1_0.tno=?
-Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
 Hibernate: 
     select
         t1_0.tno,
@@ -1514,13 +976,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -1532,13 +987,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -1549,13 +997,6 @@ Hibernate:
         tbl_todo t1_0 
     where
         t1_0.tno=?
-Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
 Hibernate: 
     select
         t1_0.tno,
@@ -1568,13 +1009,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -1586,13 +1020,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -1603,13 +1030,6 @@ Hibernate:
         tbl_todo t1_0 
     where
         t1_0.tno=?
-Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
 Hibernate: 
     select
         t1_0.tno,
@@ -1622,13 +1042,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -1640,13 +1053,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -1657,13 +1063,6 @@ Hibernate:
         tbl_todo t1_0 
     where
         t1_0.tno=?
-Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
 Hibernate: 
     select
         t1_0.tno,
@@ -1676,13 +1075,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -1694,13 +1086,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -1711,13 +1096,6 @@ Hibernate:
         tbl_todo t1_0 
     where
         t1_0.tno=?
-Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
 Hibernate: 
     select
         t1_0.tno,
@@ -1730,13 +1108,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -1748,13 +1119,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -1765,13 +1129,6 @@ Hibernate:
         tbl_todo t1_0 
     where
         t1_0.tno=?
-Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
 Hibernate: 
     select
         t1_0.tno,
@@ -1784,13 +1141,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -1802,13 +1152,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -1819,13 +1162,6 @@ Hibernate:
         tbl_todo t1_0 
     where
         t1_0.tno=?
-Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
 Hibernate: 
     select
         t1_0.tno,
@@ -1838,13 +1174,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -1855,13 +1184,6 @@ Hibernate:
         tbl_todo t1_0 
     where
         t1_0.tno=?
-Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
 Hibernate: 
     select
         t1_0.tno,
@@ -1874,13 +1196,6 @@ Hibernate:
     where
         t1_0.tno=?
 Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-Hibernate: 
     select
         t1_0.tno,
         t1_0.complete,
@@ -1891,23 +1206,6 @@ Hibernate:
         tbl_todo t1_0 
     where
         t1_0.tno=?
-Hibernate: 
-    insert 
-    into
-        tbl_todo
-        (complete, content, due_date, title, tno) 
-    values
-        (?, ?, ?, ?, ?)
-</pre>
-</span>
-</div>
-<div id="tab2" class="tab">
-<h2>Standard error</h2>
-<span class="code">
-<pre>WARNING: A Java agent has been loaded dynamically (/Users/yeonguchoe/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.12/be4984cb6fd1ef1d11f218a648889dfda44b8a15/byte-buddy-agent-1.14.12.jar)
-WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
-WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
-WARNING: Dynamic loading of agents will be disallowed by default in a future release
 </pre>
 </span>
 </div>
@@ -1919,7 +1217,7 @@ WARNING: Dynamic loading of agents will be disallowed by default in a future rel
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 8.7</a> at Apr 3, 2024, 4:35:05 p.m.</p>
+<a href="http://www.gradle.org">Gradle 8.7</a> at 2024. 4. 13. 오후 4:17:12</p>
 </div>
 </div>
 </body>
